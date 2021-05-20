@@ -1,3 +1,7 @@
+修改说明
+==========
+当前skywaling是基于skywalking的8.0.1版本,新增了爱问老系统的missian rpc框架的链路功能和hutool工具类的追踪功能
+
 Apache SkyWalking
 ==========
 
