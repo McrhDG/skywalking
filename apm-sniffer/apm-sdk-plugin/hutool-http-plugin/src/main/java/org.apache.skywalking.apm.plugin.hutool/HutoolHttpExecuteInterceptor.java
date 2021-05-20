@@ -69,10 +69,6 @@ public class HutoolHttpExecuteInterceptor implements InstanceMethodsAroundInterc
     @Override
     public Object afterMethod(EnhancedInstance objInst, Method method, Object[] allArguments, Class<?>[] argumentsTypes,
         Object ret) throws Throwable {
-        if (allArguments[0] == null || allArguments[1] == null) {
-            return ret;
-        }
-
         if (ret != null) {
             HttpResponse response = (HttpResponse) ret;
             int statusCode = response.getStatus();
