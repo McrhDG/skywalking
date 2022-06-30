@@ -62,11 +62,11 @@ public class RabbitMQConsumerInterceptorTest {
         }
     };
 
-    private RabbitMQConsumerInterceptor rabbitMQConsumerInterceptor;
+    private RabbitMQConsumerInvokeInterceptor rabbitMQConsumerInterceptor;
 
     @Before
     public void setUp() throws Exception {
-        rabbitMQConsumerInterceptor = new RabbitMQConsumerInterceptor();
+        rabbitMQConsumerInterceptor = new RabbitMQConsumerInvokeInterceptor();
     }
 
     @Test

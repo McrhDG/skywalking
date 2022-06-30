@@ -15,4 +15,4 @@
 # limitations under the License.
 
 rabbitmq-5.x=org.apache.skywalking.apm.plugin.rabbitmq.define.RabbitMQProducerInstrumentation
-rabbitmq-5.x=org.apache.skywalking.apm.plugin.rabbitmq.define.RabbitMQConsumerInstrumentation
+rabbitmq-5.x=org.apache.skywalking.apm.plugin.rabbitmq.define.RabbitMQConsumerInvokeInstrumentation
